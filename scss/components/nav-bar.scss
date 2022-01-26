@@ -1,0 +1,42 @@
+@use '../vars/colors.scss' as color;
+
+// Navigation bar
+.navigation-bar {
+	align-items    : center;
+	background     : color.$blue-1;
+	display        : flex;
+	font-size      : .9em;
+	height         : auto;
+	justify-content: space-between;
+	padding        : 2em 5%;
+	text-transform : uppercase;
+	width          : 100%;
+
+	// Components of nav
+		// Name of page
+			a {
+				color          : color.$blanco;
+				font-weight    : 600;
+				letter-spacing : .09em;
+				text-decoration: none;
+			}
+		// Sections of page
+			ul {
+				display   : flex;
+				list-style: none;
+
+				li {
+					margin-left: 3em;					
+
+					a {
+						font-weight: 400;
+						transition : all .5s ease-in;
+
+						&:hover {
+							color     : color.$blue-2;
+							transition: all .5s ease-in;
+						}
+					}
+				}
+			} 
+}

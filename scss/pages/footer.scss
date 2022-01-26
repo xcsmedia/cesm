@@ -1,0 +1,17 @@
+@use '../vars/colors.scss' as color;
+@use '../tools/mixins.scss' as mx;
+
+.footer {
+	align-items    : center;
+	display        : flex;
+	height         : auto;
+	justify-content: center;
+	width          : 100%;
+
+	// Content
+	.space-content {
+		background-color: color.$yellow-1;
+		height          : 45vh;
+		width           : 100%;
+	}
+}

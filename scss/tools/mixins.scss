@@ -1,0 +1,43 @@
+@use '../vars/colors.scss' as color;
+
+// Buttons
+	@mixin button-1 {
+		background     : color.$blanco;
+		color          : color.$blue-1;
+		font-size      : 1.3em;
+		padding        : .5em;
+		text-align     : center;
+		text-decoration: none;
+		text-transform : uppercase;
+		width          : 48%;
+	}
+
+	@mixin button-2 {
+		box-shadow     : color.$blue-1 0px 0px 0px 1.5px;
+		color          : color.$blue-1;
+		font-size      : 1.3em;
+		font-weight    : 600;
+		padding        : .5em;
+		text-align     : center;
+		text-decoration: none;
+		text-transform : uppercase;
+		width          : 50%;
+	}
+
+
+// Texts
+	@mixin tittle-1 {
+		font-size     : 2em;
+		font-weight   : 600;
+		text-transform: uppercase;
+	}
+		@mixin tittle-2 {
+		font-size     : 3.5em;
+		font-weight   : 300;
+		text-transform: uppercase;
+	}
+		@mixin subtittle-1 {
+		font-size     : 1.5em;
+		font-weight   : 300;
+		text-transform: uppercase;
+	}

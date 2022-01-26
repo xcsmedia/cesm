@@ -1,0 +1,167 @@
+@use '../vars/colors.scss' as color;
+@use '../tools/mixins.scss' as mx;
+
+.section-ministerios {
+	align-items    : center;
+	display        : flex;
+	height         : auto;
+	justify-content: center;
+	padding        : 5% 0;
+	width          : 100%;
+
+	// Content
+	.space-content {
+		align-items    : center;
+		display        : flex;
+		flex-direction : column;
+		justify-content: center;
+		width          : 90%;
+
+		h1 {
+			@include mx.tittle-2;
+		}
+		.box-videos {
+			background-color: color.$orange-1;
+			height          : 500px;
+			margin-bottom   : 3em;
+			width           : 900px;
+		}
+		.box-buttons {
+			align-items     : center;
+			display         : flex;
+			height          : auto;
+			justify-content : center;
+			width           : 900px;
+
+			// Boxs
+			.line-box-1 {
+				height: auto;
+				width : 300px;
+
+				.box-1 {
+					align-items     : center;
+					background-color: color.$orange-1;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}
+				}
+				.box-2 {
+					align-items     : center;
+					background-color: color.$blue-1;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}					
+				}
+				.box-3 {
+					align-items     : center;
+					background-color: color.$yellow-2;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}						
+				}
+			}
+			.line-box-2 {
+				height    : auto;
+				margin-top: 4em;
+				width     : 300px;
+
+				.box-1 {
+					align-items     : center;
+					background-color: color.$blue-3;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}
+				}
+				.box-2 {
+					align-items     : center;
+					background-color: color.$orange-1;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}					
+				}
+				.box-3 {
+					align-items     : center;
+					background-color: color.$blue-2;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}						
+				}
+			}
+			.line-box-3 {
+				height: auto;
+				width : 300px;
+
+				.box-1 {
+					align-items     : center;
+					background-color: color.$blue-2;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}
+				}
+				.box-2 {
+					align-items     : center;
+					background-color: color.$yellow-2;
+					display         : flex;
+					flex-direction  : column;
+					height          : 300px;
+					justify-content : center;
+					padding         : 15%;
+					width           : 100%;
+
+					img {
+						width: 80%;
+					}					
+				}
+			}						
+		}
+	}
+}
